@@ -1,0 +1,152 @@
+body{
+  font-family: 'CircularStd', sans-serif;
+  place-content: center;
+} 
+input[type="password"], input[type="email, tel"] {
+width: 390px;
+height: 50px;
+border: 1px solid #05457b;
+border-radius: 5px;
+font-size: 1.2em;
+outline: none;
+color: #444;
+box-sizing: border-box;
+padding: 15px;
+}
+h1{
+  color: #083E9E;
+  font-weight: 10px;
+  margin-top: 50px;
+}
+#h2, h1{
+ text-align: center 
+}
+a{
+  text-decoration: none
+}
+.signin-button{
+  width: 390px;
+  height:50px;
+  color: white;
+  background-color: #144499;
+  font-size: 18px;
+  border-radius: 5px;
+  position: relative;
+  top: -3px;
+  border: 1px solid #144499;
+  padding: 15px, 40px;
+}
+.p1{
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom:30px;
+  color: #627081;
+  font-weight: 600;
+  font-size: 12px;
+}
+h1{
+  font-family: 'centurygothicbold', 'U8', sans-serif;
+  font-size: 30px;
+  margin-bottom:10px;
+}
+.container2{
+  max-width: 400px;
+  border:1px dashed #05457b;
+  border-radius: 10px;
+  margin: auto;
+  box-shadow: 0 2px 4px rgba(33, 33, 33, .26);
+  padding-top: 10px;
+  padding-left: 9px;
+  padding-bottom: 9px;
+  background: #fff;
+}
+@media screen and (min-width: 1024px) {
+  .container2{
+   justify-content: center;
+   width: 400px;
+  }
+  .signin-button{
+    width: 390px;
+  }
+  input[type="password"], input[type="email, tel"] {
+    width: 390px;
+  }
+  h1{
+    font-size: 40px;
+  }
+  .p1{
+    font-size: 16px;
+    font-weight: 100;
+    margin-top: 20px;
+  }
+  #label1, #label2 {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  #p2 {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  #p3 {
+    font-size: 16px;
+    font-weight: 500;
+    top: -5px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container2{
+    justify-content: center;
+    width: 345px;
+}
+.signin-button{
+  width: 335px;
+}
+input[type="password"], input[type="email, tel"] {
+  width: 335px;
+}
+
+
+}
+hr{
+  border-top: 1px dashed #05457b;
+  margin-right: 10px;
+  position:relative;
+  top:-7px;
+  
+}
+
+.form-label1 {
+  color: #627081;
+  position:relative;
+  top:-1px;
+  font-size: 12px;
+font-weight: 600;
+}
+.form-label2 {
+  color: #627081;
+  position:relative;
+  top:7px;
+  font-size: 12px;
+  font-weight: 600;
+}
+input[type="password"] {
+  position:relative;
+  top:-9px
+}
+input[type="email, tel"] {
+  position: relative;
+  top: -15px
+} 
+.link2{
+  position:relative;
+  top: 3px;
+  font-size: 12px;
+  font-weight: 600;
+}
+.link1{
+  position:relative;
+  top: 5px;
+  font-size: 12px;
+  font-weight: 600;
+}
