@@ -105,7 +105,9 @@ h1{
 input[type="password"], input[type="email, tel"] {
   width: 335px;
 }
-
+h1{
+  font-family: 'centurygothicbold', 'U8', sans-serif;
+}
 
 }
 hr{
