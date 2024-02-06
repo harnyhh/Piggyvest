@@ -57,6 +57,7 @@ input::placeholder {
   }
   #hh1{
     font-size: 22px;
+    font-family: 'centurygothicbold', 'U8', sans-serif;
   }
 }
 input[type="text"] {
